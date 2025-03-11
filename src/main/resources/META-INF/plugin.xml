@@ -1,0 +1,17 @@
+<idea-plugin>
+  <id>ru.enwulf.TrashPandaOldTheme</id>
+  <name>TrashPandaOldTheme</name>
+  <category>UI</category>
+  <vendor>Jason Hulbert</vendor>
+  <idea-version since-build="191.0"/>
+
+  <description><![CDATA[
+    <p>A theme for raccoons and other creatures of the night.</p>
+    ]]></description>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="ru.enwulf.TrashPandaOldTheme" path="theme/trash-panda-theme.theme.json"/>
+  </extensions>
+</idea-plugin>
